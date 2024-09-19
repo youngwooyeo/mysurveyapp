@@ -51,7 +51,7 @@
     position: fixed;
     left: 0;
     top: 76px;
-    background-color: rgb(197, 57, 57);
+    background-color: rgb(100, 100, 100);
     box-shadow: 2px 0px 1px rgba(44, 44, 44, 0.137);
   }
 
@@ -65,14 +65,18 @@
     left: 50px;
     flex-direction: column;
   }
-
+  .menu__item:hover {
+    color: rgb(245, 140, 180);
+    font-weight: bold;
+  }
   .menu__item {
     margin: 15px 0;
     width: 200px;
-    height: 80pc;
-    background-color: aquamarine;
   }
 }
+
+
+
 
 @media (min-width: 1100px) {
   .navigation__wrapper {
