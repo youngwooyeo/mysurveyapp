@@ -156,4 +156,10 @@ a {
 }
 
 a:visited {
-color: azure;}
+color: azure;
+}
+
+a:link {
+  color: azure;
+
+}
