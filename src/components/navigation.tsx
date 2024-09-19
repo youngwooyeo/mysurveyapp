@@ -6,7 +6,7 @@ import NavItem from "./navItem";
 function Navigation(): JSX.Element {
   const [menuToggle, setMenuToggle] = useState<boolean>(false);
   const menu = [
-    { name: "Home", address: "/" },
+    { name: "홈", address: "/" },
     { name: "지금 센터는", address: "/menu1" },
     { name: "떠들썩", address: "/menu2" },
     { name: "센터는요", address: "/menu3" },

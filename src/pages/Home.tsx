@@ -20,7 +20,7 @@ function Home() {
         </div>
         <div className='home-main'>
           <div className='home-main-cell'>
-            <img className="image-panel" style={{ width: 260, height: 260 }} src="/images/book01.png" alt="Survey1" />
+            <img className="image-panel" style={{ width: 274, height: 274 }} src="/images/survey01.png" alt="Survey1" />
             <h3>연구성과 만족도조사</h3>
             <h5>01/3 - 07/28</h5>
             <div className='home-main-cell-sub'>
@@ -34,7 +34,7 @@ function Home() {
           </div>
 
           <div className='home-main-cell'>
-            <img className="image-panel" style={{ width: 260, height: 260 }} src="/images/book01.png" alt="Survey1" />
+            <img className="image-panel" style={{ width: 274, height: 274 }} src="/images/survey02.png" alt="Survey1" />
             <h3>전문가 의견조사
             </h3>
             <h5>01/19 - 06/23
@@ -51,7 +51,7 @@ function Home() {
           </div>
 
           <div className='home-main-cell'>
-            <img className="image-panel" style={{ width: 260, height: 260 }} src="/images/book01.png" alt="Survey1" />
+            <img className="image-panel" style={{ width: 274, height: 274 }} src="/images/survey03.png" alt="Survey1" />
             <h3>시민 인식조사
             </h3>
             <h5>01/21 - 11/23
