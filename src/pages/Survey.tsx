@@ -4,8 +4,10 @@ import { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
+interface Props { nowStep: number , menuShow : boolean, onMyClick:()=> void }
+type props = { nowStep: number , menuShow : boolean, onMyClick:()=> void }
 
-function Survey() {
+const  Survey = () => {
 
   const [nowStep, setNowStep] = useState(1);
 

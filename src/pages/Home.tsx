@@ -1,6 +1,9 @@
 import React from 'react';
 import "./pages.css";
 import { Link } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
+import Navigation from "../components/navigation";
+import Bottom from "../components/bottom";
 
 interface Identification {
   nowStep : number;
@@ -10,10 +13,14 @@ interface Identification {
 }
 
 
-
 function Home() {
+
+
   return (
+     
     <div className="home">
+      <Navigation />
+
       <div className='home-con'>
         <div className='home-top'>
           진행중인 설문조사
@@ -27,7 +34,7 @@ function Home() {
               기본적인 온라인 설문지 제작 형태입니다. 다양한 만족도 조사를 지원합니다.
             </div>
             <Link to="/Survey">
-              <div className='home-main-cell-button'>
+              <div className='home-main-cell-button' >
                 설문지 작성하기
               </div>
             </Link>
@@ -77,6 +84,8 @@ function Home() {
 
         </div>
       </div>
+
+      <Bottom />
     </div>
   );
 }

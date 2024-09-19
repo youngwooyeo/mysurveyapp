@@ -1,21 +1,17 @@
 import React from 'react';
-
+import Navigation from "../components/navigation";
+import Bottom from "../components/bottom";
 function Menu5() {
   return (
     <div className="Meun5">
+             <Navigation />
+
       <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+      <p>
+          Under Construction 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <Bottom />
     </div>
   );
 }

@@ -18,16 +18,24 @@ import { Router } from "./Router"
 
 export default function App() {
 
-  type Props = { nowStep: number }
+  type Props = { nowStep: number , menuShow : boolean, onMyClick:()=> void }
 
 
 
+  const [nowStep, setNowStep] = useState(0);
+  const [menuShow, setMenuShow] = useState(true);
+  const onMyClick = () => {
+    setMenuShow(false)
+  }
+  
 
   return (
+
+
     // <RouterProvider router={Router} />
 
     <BrowserRouter>
-      <Navigation />
+
 
       <Routes>
         <Route path="/" element={<Home  />} />
@@ -36,10 +44,10 @@ export default function App() {
         <Route Component={Menu3} path="/menu3" />
         <Route Component={Menu4} path="/menu4" />
         <Route Component={Menu5} path="/menu5" />
-        <Route Component={Survey} path="/survey" />
+        <Route Component={Survey} path="/survey"  />
       </Routes>
 
-      <Bottom />
+
     </BrowserRouter>
 
   );
